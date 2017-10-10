@@ -21,14 +21,15 @@ namespace NeuralNetworksApp
         protected int pCurrentImage = -1;
         string ColorName;
         string itemTextCar;
-        int Listindex;// to point out the lates rectangle in the list
-        List<string> ColorNameCount = new List<string>();
-        List<string> CarType = new List<string>();
+        string noPlate;
+        string carType;
+        
         //////////////////////////////////////////////////////////
         ToolStripMenuItem NameTOOL = new ToolStripMenuItem();
         StreamWriter file;
         FolderBrowserDialog Savefolder = new FolderBrowserDialog();
         ColorDialog ColorSelection = new ColorDialog();
+        Point contextmenupos;
         OpenFileDialog open = new OpenFileDialog();
         //////////////////////////////////////////////////////////
         Form form2 = new Form();
@@ -41,12 +42,11 @@ namespace NeuralNetworksApp
         private Point RectStartPoint2;
         private Rectangle Rect = new Rectangle();
         private Rectangle Rect3 = new Rectangle();
-        private List<Rectangle> Lrect = new List<Rectangle>();
-        private List<Rectangle> Lrect3 = new List<Rectangle>();
+       
         //////////////////////////////////////////////////////////
         private Rectangle Rect2 = new Rectangle();
         private Brush selectionBrush = new SolidBrush(Color.FromArgb(128, 72, 145, 220));
-        private Brush selectionBrush2 = new SolidBrush(Color.FromArgb(60, 124, 252, 0));
+        private Brush selectionBrush2 = new SolidBrush(Color.FromArgb(60, 255, 255, 255));
         double ratio1 = 0.0000;
         double ratio2 = 0.0000;
         //////////////////////////////////////////////////////////
@@ -85,28 +85,31 @@ namespace NeuralNetworksApp
         }
         private void Next()
         {
+            Rect = new Rectangle();
+            Rect3 = new Rectangle();
             pCurrentImage = pCurrentImage == pFileNames.Length - 1 ? 0 : ++pCurrentImage;
             ShowCurrentImage();
             pictureBox.Refresh();
             pictureBox.Invalidate();
             pictureBox.Update();
-            Lrect.Clear();
-            Lrect3.Clear();
-            ColorNameCount.Clear();
-            CarType.Clear();
+           
+           
+            textBox1.Text = "";
+            
         }
         private void Previous()
         {
+            Rect = new Rectangle();
+            Rect3 = new Rectangle();
             pCurrentImage = pCurrentImage == 0 ? pFileNames.Length - 1 : --pCurrentImage;
             ShowCurrentImage();
             pictureBox.Refresh();
             pictureBox.Refresh();
             pictureBox.Invalidate();
             pictureBox.Update();
-            Lrect.Clear();
-            Lrect3.Clear();
-            ColorNameCount.Clear();
-            CarType.Clear();
+          
+            textBox1.Text = "";
+           
         }
         private void ShowButton_Click(object sender, EventArgs e)
         {
@@ -206,9 +209,10 @@ namespace NeuralNetworksApp
                 if (Rect3.Contains(e.Location))
                 {
                     //Debug.WriteLine("Right click");
-                    ContextMNU.Show();
-                    ContextMNU.AutoClose = false;
+                  //  ContextMNU.Show();
+                   // ContextMNU.AutoClose = false;
                     ContextMNU.Show(PointToScreen(e.Location));
+                    contextmenupos = e.Location;
                 }
             }
         }
@@ -225,11 +229,13 @@ namespace NeuralNetworksApp
             {
                 pictureBox.Image = null;
                 pictureBox.Invalidate();
-                //Rect = new Rectangle();
+                Rect = new Rectangle();
+                Rect3 = new Rectangle();
                 //Rect2 = new Rectangle();
                 //form2.Refresh();
                 pictureBox.Refresh();
                 NameField.Text = "  ";
+                textBox1.Text = "";
             }
             /*
             if (pictureBox1.Image != null)
@@ -281,25 +287,14 @@ namespace NeuralNetworksApp
                     imageName = NameField.Text.Substring(0, index);
                     if (Savefolder.SelectedPath != "")
                     {
-                        for (int j = 0; j < Lrect.Count; j++)
-                        {
-                            using (file = new StreamWriter(Savefolder.SelectedPath + "\\" + imageName + ".box", true))
-                                file.WriteLine(NameField.Text + "  " + (int)(Lrect3[j].X * ratio1) + " " + (int)(Lrect3[j].Y * ratio2) + " "
-                                + (int)(Lrect3[j].Width * ratio1) + " " + (int)(Lrect3[j].Height * ratio2) + " "
-                                + (int)(Lrect[j].X * ratio1) + " " + (int)(Lrect[j].Y * ratio2)
-                                + " " + (int)(Lrect[j].Width * ratio1) + " " + (int)(Lrect[j].Height * ratio2) +
-                                " " + ColorNameCount[j] + " " + CarType[j]);
-                            /*  Debug.WriteLine(NameField.Text + "  " + (int)(Lrect3[j].X * ratio1) + " " + (int)(Lrect3[j].Y * ratio2) + " "
-                           + (int)(Lrect3[j].Width * ratio1) + " " + (int)(Lrect3[j].Height * ratio2) + " "
-                           + (int)(Lrect[j].X * ratio1) + " " + (int)(Lrect[j].Y * ratio2)
-                           + " " + (int)(Lrect[j].Width * ratio1) + " " + (int)(Lrect[j].Height * ratio2) +
-                           " " + ColorNameCount[j] );*/
+                        using (file = new StreamWriter(Savefolder.SelectedPath + "\\" + imageName + ".txt"))
+                        { 
+                                file.WriteLine(NameField.Text + "  " + (int)(Rect3.X * ratio1) + " " + (int)(Rect3.Y * ratio2) + " "
+                                + (int)(Rect3.Width * ratio1) + " " + (int)(Rect3.Height * ratio2) + " "
+                                + (int)(Rect.X * ratio1) + " " + (int)(Rect.Y * ratio2)
+                                + " " + (int)(Rect.Width * ratio1) + " " + (int)(Rect.Height * ratio2) +
+                                " " + ColorName + " " + carType +" "+noPlate);
                         }
-                        file.Close();
-                        Lrect.Clear();
-                        Lrect3.Clear();
-                        ColorNameCount.Clear();
-                        CarType.Clear();
                     }
                     else
                     {
@@ -318,6 +313,9 @@ namespace NeuralNetworksApp
         }
         private void SaveButton_Click(object sender, EventArgs e)
         {
+            
+            carType = itemTextCar;
+            noPlate = textBox1.Text;
             Save();
         }
         private  Bitmap cropAtRect(Bitmap b, Rectangle r)
@@ -375,60 +373,30 @@ namespace NeuralNetworksApp
         }
         private void Colorselect_Click(object sender, EventArgs e)
         {
-            ColorSelection.ShowDialog();
-            ColorName = ColorSelection.ToString().Split(',', '[', ']')[2];
+            ColorSelection.ShowDialog();           
+            ContextMNU.Show(PointToScreen(contextmenupos));
+            ColorName = ColorSelection.Color.Name;     
             Debug.WriteLine(ColorName);
         }
         private void Help_button_Click(object sender, EventArgs e)
         {
             const string message =
-           " 1-Choose a Directory. \n 2-Highlight The Car First Using RightClick and Drag. \n 3-Highlight the Number Plate using LeftClick. \n 4-After Highligthting the No.Plate, select Color and Type. \n 5- Click Add Rects to Save the Previous highlights you Made. \n 6-Please Make Sure to save each image before Handling the Next one. \n7-You Can Preview a Rectangle you're uncertain about its \n   coordinates. \n\n LEGEND:\n 1-CTRL+S to Save. \n 2-CTRL+A to ADDnewRect. \n 3-CTRL+Z to Remove Latest Rect Added \n or Remove The same Rect Added Twice. \n 4-CTRL+O to Choose Directory. \n 5-CTRL+N to Choose an Image. \n 6-CTRL+LeftArrowkey Previous, CTRL+RightArrowKey Next. ";
+           " 1-Select a picture(or Pictures, By highlighting several pictures at once). \n 2-Choose a Directory to sace your work in. \n 3-Highlight The Car First Using RightClick and Drag. \n 3-Highlight the Number Plate using LeftClick. \n 4-After Highligthting the No.Plate, select Color first then Type in order to close the contextmenu, right the car NO in the Noplate Text Box. \n 5-Click Save to Write your work into a file.  \n 6-Please Make Sure to save each image before Handling the Next one. \n7-You Can Preview a Rectangle you're uncertain about its \n   coordinates. \n\n LEGEND:\n 1-CTRL+S to Save.  \n 3-CTRL+O to Choose Directory. \n 4-CTRL+N to Choose an Image. \n 5-CTRL+LeftArrowkey Previous, CTRL+RightArrowKey Next. ";
             const string caption = "Help";
             var result = MessageBox.Show(message, caption,
                                          MessageBoxButtons.OK,
                                          MessageBoxIcon.Information);
         }
-        private void Get_Carname(object sender, EventArgs e)
-        {
-            itemTextCar = (sender as ToolStripMenuItem).Text;
-            Debug.WriteLine(itemTextCar);
-        }
-        private void ADD_RECT_Click(object sender, EventArgs e)
-        {
-            ADD();
-        }
-        private void ADD()
-        {
-            Lrect.Add(Rect);
-            Lrect3.Add(Rect3);
-            ColorNameCount.Add(ColorName);
-            CarType.Add(itemTextCar);
-            Debug.Write("rect added\n");
-            Listindex = Lrect.IndexOf(Rect);
-            Debug.WriteLine(Listindex);
-        }
+       
         private void NeuralNetworksAPPGUI_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Control && e.KeyCode == Keys.S)
             {
                 Save();
             }
-            else if (e.Control && e.KeyCode == Keys.A)
-            {
-                ADD();
-            }
             else if (e.Control && e.KeyCode == Keys.O)
             {
                 ChooseDirectory();
-            }
-            else if (e.Control && e.KeyCode == Keys.Z)
-            {
-                Lrect.RemoveAt(Listindex);
-                Lrect3.RemoveAt(Listindex);
-                CarType.RemoveAt(Listindex);
-                ColorNameCount.RemoveAt(Listindex);
-                Listindex--;
-                // deletes latest index in the lists of a rect or the others
             }
             else if (e.Control && e.KeyCode == Keys.N)
             {
@@ -453,6 +421,12 @@ namespace NeuralNetworksApp
                     Previous();
                 }
             }
-        }       
+        }
+        private void Get_Carname(object sender, EventArgs e)
+        {
+            itemTextCar = (sender as ToolStripMenuItem).Text;
+            Debug.WriteLine(itemTextCar);
+            // ContextMNU.Show(PointToScreen(contextmenupos));
+        }
     }
  }

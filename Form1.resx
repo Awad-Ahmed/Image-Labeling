@@ -290,32 +290,8 @@
   <data name="&gt;&gt;ChooseDirectoryBTN.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="ADD_RECT.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 3</value>
-  </data>
-  <data name="ADD_RECT.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="ADD_RECT.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="ADD_RECT.Text" xml:space="preserve">
-    <value>ADD Rects</value>
-  </data>
-  <data name="&gt;&gt;ADD_RECT.Name" xml:space="preserve">
-    <value>ADD_RECT</value>
-  </data>
-  <data name="&gt;&gt;ADD_RECT.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ADD_RECT.Parent" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;ADD_RECT.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>662, 3</value>
+    <value>581, 3</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -336,7 +312,58 @@
     <value>flowLayoutPanel1</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>662, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>No.Plate</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <metadata name="textBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>716, 3</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -477,21 +504,6 @@
   <data name="pic_panel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="pictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>954, 655</value>
-  </data>
-  <data name="pictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="pictureBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;pictureBox.Name" xml:space="preserve">
     <value>pictureBox</value>
   </data>
@@ -555,207 +567,36 @@
   <data name="tableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="flowLayoutPanel1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="NxtButton" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="PrvButton" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Help_button" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pic_panel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,9.502262,Percent,80.99548,Percent,9.38914" /&gt;&lt;Rows Styles="Percent,92.31844,Percent,7.681564,Absolute,10" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="pictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>954, 655</value>
+  </data>
+  <data name="pictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Name" xml:space="preserve">
+    <value>pictureBox</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Parent" xml:space="preserve">
+    <value>pic_panel</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="ContextMNU.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>150, 17</value>
   </metadata>
-  <data name="Colorselect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 22</value>
-  </data>
-  <data name="Colorselect.Text" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="bMWToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="bMWToolStripMenuItem.Text" xml:space="preserve">
-    <value>BMW</value>
-  </data>
-  <data name="tOYOTAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="tOYOTAToolStripMenuItem.Text" xml:space="preserve">
-    <value>TOYOTA</value>
-  </data>
-  <data name="mercedesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="mercedesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Mercedes</value>
-  </data>
-  <data name="aUDIToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="aUDIToolStripMenuItem.Text" xml:space="preserve">
-    <value>AUDI</value>
-  </data>
-  <data name="hONDAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="hONDAToolStripMenuItem.Text" xml:space="preserve">
-    <value>HONDA</value>
-  </data>
-  <data name="kIAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="kIAToolStripMenuItem.Text" xml:space="preserve">
-    <value>KIA</value>
-  </data>
-  <data name="oPELToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="oPELToolStripMenuItem.Text" xml:space="preserve">
-    <value>OPEL</value>
-  </data>
-  <data name="hYUNDAIToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="hYUNDAIToolStripMenuItem.Text" xml:space="preserve">
-    <value>HYUNDAI</value>
-  </data>
-  <data name="sUBARUToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="sUBARUToolStripMenuItem.Text" xml:space="preserve">
-    <value>SUBARU</value>
-  </data>
-  <data name="sPERANZAToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="sPERANZAToolStripMenuItem.Text" xml:space="preserve">
-    <value>SPERANZA</value>
-  </data>
-  <data name="sSANGYONGToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="sSANGYONGToolStripMenuItem.Text" xml:space="preserve">
-    <value>SSANGYONG</value>
-  </data>
-  <data name="sUZUKIToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="sUZUKIToolStripMenuItem.Text" xml:space="preserve">
-    <value>SUZUKI</value>
-  </data>
-  <data name="pEUGEOTToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="pEUGEOTToolStripMenuItem.Text" xml:space="preserve">
-    <value>PEUGEOT</value>
-  </data>
-  <data name="rENAULTToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="rENAULTToolStripMenuItem.Text" xml:space="preserve">
-    <value>RENAULT</value>
-  </data>
-  <data name="mINIToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="mINIToolStripMenuItem.Text" xml:space="preserve">
-    <value>MINI</value>
-  </data>
-  <data name="mITSUBISHIToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="mITSUBISHIToolStripMenuItem.Text" xml:space="preserve">
-    <value>MITSUBISHI</value>
-  </data>
-  <data name="lEXUSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="lEXUSToolStripMenuItem.Text" xml:space="preserve">
-    <value>LEXUS</value>
-  </data>
-  <data name="gEELYToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="gEELYToolStripMenuItem.Text" xml:space="preserve">
-    <value>GEELY</value>
-  </data>
-  <data name="dODGEToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="dODGEToolStripMenuItem.Text" xml:space="preserve">
-    <value>DODGE</value>
-  </data>
-  <data name="fORDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="fORDToolStripMenuItem.Text" xml:space="preserve">
-    <value>FORD</value>
-  </data>
-  <data name="nISSANToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="nISSANToolStripMenuItem.Text" xml:space="preserve">
-    <value>NISSAN</value>
-  </data>
-  <data name="dAIHATSUToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="dAIHATSUToolStripMenuItem.Text" xml:space="preserve">
-    <value>DAIHATSU</value>
-  </data>
-  <data name="vOLSKWAGNToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="vOLSKWAGNToolStripMenuItem.Text" xml:space="preserve">
-    <value>VOLSKWAGEN</value>
-  </data>
-  <data name="bRILLIANCEToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="bRILLIANCEToolStripMenuItem.Text" xml:space="preserve">
-    <value>BRILLIANCE</value>
-  </data>
-  <data name="aLFAROMEOToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="aLFAROMEOToolStripMenuItem.Text" xml:space="preserve">
-    <value>ALFAROMEO</value>
-  </data>
-  <data name="bYDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="bYDToolStripMenuItem.Text" xml:space="preserve">
-    <value>BYD</value>
-  </data>
-  <data name="bENTLYToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="bENTLYToolStripMenuItem.Text" xml:space="preserve">
-    <value>BENTLEY</value>
-  </data>
-  <data name="bAICToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="bAICToolStripMenuItem.Text" xml:space="preserve">
-    <value>BAIC</value>
-  </data>
-  <data name="dAEWOOToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="dAEWOOToolStripMenuItem.Text" xml:space="preserve">
-    <value>DAEWOO</value>
-  </data>
-  <data name="cHEVROLETToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="cHEVROLETToolStripMenuItem.Text" xml:space="preserve">
-    <value>CHEVROLET</value>
-  </data>
-  <data name="jEEPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
-  </data>
-  <data name="jEEPToolStripMenuItem.Text" xml:space="preserve">
-    <value>JEEP</value>
-  </data>
-  <data name="typeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 22</value>
-  </data>
-  <data name="typeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Type</value>
-  </data>
   <data name="ContextMNU.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 48</value>
   </data>
@@ -768,9 +609,75 @@
   <data name="&gt;&gt;ContextMNU.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Colorselect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="Colorselect.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="typeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="typeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
   <metadata name="SaveFileName.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>260, 17</value>
   </metadata>
+  <data name="sedanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="sedanToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sedan</value>
+  </data>
+  <data name="sUVToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="sUVToolStripMenuItem.Text" xml:space="preserve">
+    <value>SUV</value>
+  </data>
+  <data name="miniVanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="miniVanToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mini Van</value>
+  </data>
+  <data name="bUSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="bUSToolStripMenuItem.Text" xml:space="preserve">
+    <value>BUS</value>
+  </data>
+  <data name="miniBusToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="miniBusToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mini Bus</value>
+  </data>
+  <data name="lightTruckToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="lightTruckToolStripMenuItem.Text" xml:space="preserve">
+    <value>Light Truck</value>
+  </data>
+  <data name="mediumTruckToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="mediumTruckToolStripMenuItem.Text" xml:space="preserve">
+    <value>Medium Truck</value>
+  </data>
+  <data name="heavyTruckToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="heavyTruckToolStripMenuItem.Text" xml:space="preserve">
+    <value>Heavy Truck</value>
+  </data>
+  <data name="othersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="othersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Others</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -5139,197 +5046,65 @@
   <data name="&gt;&gt;typeToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;bMWToolStripMenuItem.Name" xml:space="preserve">
-    <value>bMWToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;bMWToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tOYOTAToolStripMenuItem.Name" xml:space="preserve">
-    <value>tOYOTAToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;tOYOTAToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mercedesToolStripMenuItem.Name" xml:space="preserve">
-    <value>mercedesToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;mercedesToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;aUDIToolStripMenuItem.Name" xml:space="preserve">
-    <value>aUDIToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;aUDIToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hONDAToolStripMenuItem.Name" xml:space="preserve">
-    <value>hONDAToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;hONDAToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;kIAToolStripMenuItem.Name" xml:space="preserve">
-    <value>kIAToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;kIAToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;oPELToolStripMenuItem.Name" xml:space="preserve">
-    <value>oPELToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;oPELToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hYUNDAIToolStripMenuItem.Name" xml:space="preserve">
-    <value>hYUNDAIToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;hYUNDAIToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sUBARUToolStripMenuItem.Name" xml:space="preserve">
-    <value>sUBARUToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;sUBARUToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sPERANZAToolStripMenuItem.Name" xml:space="preserve">
-    <value>sPERANZAToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;sPERANZAToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sSANGYONGToolStripMenuItem.Name" xml:space="preserve">
-    <value>sSANGYONGToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;sSANGYONGToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;sUZUKIToolStripMenuItem.Name" xml:space="preserve">
-    <value>sUZUKIToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;sUZUKIToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pEUGEOTToolStripMenuItem.Name" xml:space="preserve">
-    <value>pEUGEOTToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;pEUGEOTToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;rENAULTToolStripMenuItem.Name" xml:space="preserve">
-    <value>rENAULTToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;rENAULTToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mINIToolStripMenuItem.Name" xml:space="preserve">
-    <value>mINIToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;mINIToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mITSUBISHIToolStripMenuItem.Name" xml:space="preserve">
-    <value>mITSUBISHIToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;mITSUBISHIToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lEXUSToolStripMenuItem.Name" xml:space="preserve">
-    <value>lEXUSToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;lEXUSToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gEELYToolStripMenuItem.Name" xml:space="preserve">
-    <value>gEELYToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;gEELYToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dODGEToolStripMenuItem.Name" xml:space="preserve">
-    <value>dODGEToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;dODGEToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;fORDToolStripMenuItem.Name" xml:space="preserve">
-    <value>fORDToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;fORDToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nISSANToolStripMenuItem.Name" xml:space="preserve">
-    <value>nISSANToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;nISSANToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dAIHATSUToolStripMenuItem.Name" xml:space="preserve">
-    <value>dAIHATSUToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;dAIHATSUToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;vOLSKWAGNToolStripMenuItem.Name" xml:space="preserve">
-    <value>vOLSKWAGNToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;vOLSKWAGNToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bRILLIANCEToolStripMenuItem.Name" xml:space="preserve">
-    <value>bRILLIANCEToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;bRILLIANCEToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;aLFAROMEOToolStripMenuItem.Name" xml:space="preserve">
-    <value>aLFAROMEOToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;aLFAROMEOToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bYDToolStripMenuItem.Name" xml:space="preserve">
-    <value>bYDToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;bYDToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bENTLYToolStripMenuItem.Name" xml:space="preserve">
-    <value>bENTLYToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;bENTLYToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bAICToolStripMenuItem.Name" xml:space="preserve">
-    <value>bAICToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;bAICToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dAEWOOToolStripMenuItem.Name" xml:space="preserve">
-    <value>dAEWOOToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;dAEWOOToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cHEVROLETToolStripMenuItem.Name" xml:space="preserve">
-    <value>cHEVROLETToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;cHEVROLETToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;jEEPToolStripMenuItem.Name" xml:space="preserve">
-    <value>jEEPToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;jEEPToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;SaveFileName.Name" xml:space="preserve">
     <value>SaveFileName</value>
   </data>
   <data name="&gt;&gt;SaveFileName.Type" xml:space="preserve">
     <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sedanToolStripMenuItem.Name" xml:space="preserve">
+    <value>sedanToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;sedanToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sUVToolStripMenuItem.Name" xml:space="preserve">
+    <value>sUVToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;sUVToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;miniVanToolStripMenuItem.Name" xml:space="preserve">
+    <value>miniVanToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;miniVanToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bUSToolStripMenuItem.Name" xml:space="preserve">
+    <value>bUSToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bUSToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;miniBusToolStripMenuItem.Name" xml:space="preserve">
+    <value>miniBusToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;miniBusToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lightTruckToolStripMenuItem.Name" xml:space="preserve">
+    <value>lightTruckToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;lightTruckToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mediumTruckToolStripMenuItem.Name" xml:space="preserve">
+    <value>mediumTruckToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;mediumTruckToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;heavyTruckToolStripMenuItem.Name" xml:space="preserve">
+    <value>heavyTruckToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;heavyTruckToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;othersToolStripMenuItem.Name" xml:space="preserve">
+    <value>othersToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;othersToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>NeuralNetworksAPPGUI</value>

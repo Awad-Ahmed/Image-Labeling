@@ -38,8 +38,9 @@
             this.NameField = new System.Windows.Forms.TextBox();
             this.SaveButton = new System.Windows.Forms.Button();
             this.ChooseDirectoryBTN = new System.Windows.Forms.Button();
-            this.ADD_RECT = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.NxtButton = new System.Windows.Forms.Button();
             this.PrvButton = new System.Windows.Forms.Button();
@@ -49,38 +50,16 @@
             this.ContextMNU = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.Colorselect = new System.Windows.Forms.ToolStripMenuItem();
             this.typeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bMWToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tOYOTAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mercedesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aUDIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hONDAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kIAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.oPELToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hYUNDAIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sUBARUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sPERANZAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sSANGYONGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sUZUKIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pEUGEOTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rENAULTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mINIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mITSUBISHIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lEXUSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gEELYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dODGEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fORDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nISSANToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dAIHATSUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.vOLSKWAGNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bRILLIANCEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aLFAROMEOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bYDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bENTLYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bAICToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dAEWOOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cHEVROLETToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.jEEPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SaveFileName = new System.Windows.Forms.SaveFileDialog();
+            this.sedanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sUVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.miniVanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bUSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.miniBusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lightTruckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mediumTruckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.heavyTruckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.othersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.flowLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel.SuspendLayout();
             this.pic_panel.SuspendLayout();
@@ -101,8 +80,9 @@
             this.flowLayoutPanel1.Controls.Add(this.NameField);
             this.flowLayoutPanel1.Controls.Add(this.SaveButton);
             this.flowLayoutPanel1.Controls.Add(this.ChooseDirectoryBTN);
-            this.flowLayoutPanel1.Controls.Add(this.ADD_RECT);
             this.flowLayoutPanel1.Controls.Add(this.button1);
+            this.flowLayoutPanel1.Controls.Add(this.label2);
+            this.flowLayoutPanel1.Controls.Add(this.textBox1);
             resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             // 
@@ -144,19 +124,22 @@
             this.ChooseDirectoryBTN.UseVisualStyleBackColor = true;
             this.ChooseDirectoryBTN.Click += new System.EventHandler(this.ChooseDirectoryBTN_Click);
             // 
-            // ADD_RECT
-            // 
-            resources.ApplyResources(this.ADD_RECT, "ADD_RECT");
-            this.ADD_RECT.Name = "ADD_RECT";
-            this.ADD_RECT.UseVisualStyleBackColor = true;
-            this.ADD_RECT.Click += new System.EventHandler(this.ADD_RECT_Click);
-            // 
             // button1
             // 
             resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
             // 
             // tableLayoutPanel
             // 
@@ -223,224 +206,68 @@
             // typeToolStripMenuItem
             // 
             this.typeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bMWToolStripMenuItem,
-            this.tOYOTAToolStripMenuItem,
-            this.mercedesToolStripMenuItem,
-            this.aUDIToolStripMenuItem,
-            this.hONDAToolStripMenuItem,
-            this.kIAToolStripMenuItem,
-            this.oPELToolStripMenuItem,
-            this.hYUNDAIToolStripMenuItem,
-            this.sUBARUToolStripMenuItem,
-            this.sPERANZAToolStripMenuItem,
-            this.sSANGYONGToolStripMenuItem,
-            this.sUZUKIToolStripMenuItem,
-            this.pEUGEOTToolStripMenuItem,
-            this.rENAULTToolStripMenuItem,
-            this.mINIToolStripMenuItem,
-            this.mITSUBISHIToolStripMenuItem,
-            this.lEXUSToolStripMenuItem,
-            this.gEELYToolStripMenuItem,
-            this.dODGEToolStripMenuItem,
-            this.fORDToolStripMenuItem,
-            this.nISSANToolStripMenuItem,
-            this.dAIHATSUToolStripMenuItem,
-            this.vOLSKWAGNToolStripMenuItem,
-            this.bRILLIANCEToolStripMenuItem,
-            this.aLFAROMEOToolStripMenuItem,
-            this.bYDToolStripMenuItem,
-            this.bENTLYToolStripMenuItem,
-            this.bAICToolStripMenuItem,
-            this.dAEWOOToolStripMenuItem,
-            this.cHEVROLETToolStripMenuItem,
-            this.jEEPToolStripMenuItem});
+            this.miniBusToolStripMenuItem,
+            this.bUSToolStripMenuItem,
+            this.miniVanToolStripMenuItem,
+            this.sedanToolStripMenuItem,
+            this.sUVToolStripMenuItem,
+            this.lightTruckToolStripMenuItem,
+            this.mediumTruckToolStripMenuItem,
+            this.heavyTruckToolStripMenuItem,
+            this.othersToolStripMenuItem});
             this.typeToolStripMenuItem.Name = "typeToolStripMenuItem";
             this.typeToolStripMenuItem.Overflow = System.Windows.Forms.ToolStripItemOverflow.Always;
             resources.ApplyResources(this.typeToolStripMenuItem, "typeToolStripMenuItem");
             // 
-            // bMWToolStripMenuItem
+            // sedanToolStripMenuItem
             // 
-            this.bMWToolStripMenuItem.Name = "bMWToolStripMenuItem";
-            resources.ApplyResources(this.bMWToolStripMenuItem, "bMWToolStripMenuItem");
-            this.bMWToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
+            this.sedanToolStripMenuItem.Name = "sedanToolStripMenuItem";
+            resources.ApplyResources(this.sedanToolStripMenuItem, "sedanToolStripMenuItem");
+            this.sedanToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
             // 
-            // tOYOTAToolStripMenuItem
+            // sUVToolStripMenuItem
             // 
-            this.tOYOTAToolStripMenuItem.Name = "tOYOTAToolStripMenuItem";
-            resources.ApplyResources(this.tOYOTAToolStripMenuItem, "tOYOTAToolStripMenuItem");
-            this.tOYOTAToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
+            this.sUVToolStripMenuItem.Name = "sUVToolStripMenuItem";
+            resources.ApplyResources(this.sUVToolStripMenuItem, "sUVToolStripMenuItem");
+            this.sUVToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
             // 
-            // mercedesToolStripMenuItem
+            // miniVanToolStripMenuItem
             // 
-            this.mercedesToolStripMenuItem.Name = "mercedesToolStripMenuItem";
-            resources.ApplyResources(this.mercedesToolStripMenuItem, "mercedesToolStripMenuItem");
-            this.mercedesToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
+            this.miniVanToolStripMenuItem.Name = "miniVanToolStripMenuItem";
+            resources.ApplyResources(this.miniVanToolStripMenuItem, "miniVanToolStripMenuItem");
+            this.miniVanToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
             // 
-            // aUDIToolStripMenuItem
+            // bUSToolStripMenuItem
             // 
-            this.aUDIToolStripMenuItem.Name = "aUDIToolStripMenuItem";
-            resources.ApplyResources(this.aUDIToolStripMenuItem, "aUDIToolStripMenuItem");
-            this.aUDIToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
+            this.bUSToolStripMenuItem.Name = "bUSToolStripMenuItem";
+            resources.ApplyResources(this.bUSToolStripMenuItem, "bUSToolStripMenuItem");
+            this.bUSToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
             // 
-            // hONDAToolStripMenuItem
+            // miniBusToolStripMenuItem
             // 
-            this.hONDAToolStripMenuItem.Name = "hONDAToolStripMenuItem";
-            resources.ApplyResources(this.hONDAToolStripMenuItem, "hONDAToolStripMenuItem");
-            this.hONDAToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
+            this.miniBusToolStripMenuItem.Name = "miniBusToolStripMenuItem";
+            resources.ApplyResources(this.miniBusToolStripMenuItem, "miniBusToolStripMenuItem");
+            this.miniBusToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
             // 
-            // kIAToolStripMenuItem
+            // lightTruckToolStripMenuItem
             // 
-            this.kIAToolStripMenuItem.Name = "kIAToolStripMenuItem";
-            resources.ApplyResources(this.kIAToolStripMenuItem, "kIAToolStripMenuItem");
-            this.kIAToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
+            this.lightTruckToolStripMenuItem.Name = "lightTruckToolStripMenuItem";
+            resources.ApplyResources(this.lightTruckToolStripMenuItem, "lightTruckToolStripMenuItem");
             // 
-            // oPELToolStripMenuItem
+            // mediumTruckToolStripMenuItem
             // 
-            this.oPELToolStripMenuItem.Name = "oPELToolStripMenuItem";
-            resources.ApplyResources(this.oPELToolStripMenuItem, "oPELToolStripMenuItem");
-            this.oPELToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
+            this.mediumTruckToolStripMenuItem.Name = "mediumTruckToolStripMenuItem";
+            resources.ApplyResources(this.mediumTruckToolStripMenuItem, "mediumTruckToolStripMenuItem");
             // 
-            // hYUNDAIToolStripMenuItem
+            // heavyTruckToolStripMenuItem
             // 
-            this.hYUNDAIToolStripMenuItem.Name = "hYUNDAIToolStripMenuItem";
-            resources.ApplyResources(this.hYUNDAIToolStripMenuItem, "hYUNDAIToolStripMenuItem");
-            this.hYUNDAIToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
+            this.heavyTruckToolStripMenuItem.Name = "heavyTruckToolStripMenuItem";
+            resources.ApplyResources(this.heavyTruckToolStripMenuItem, "heavyTruckToolStripMenuItem");
             // 
-            // sUBARUToolStripMenuItem
+            // othersToolStripMenuItem
             // 
-            this.sUBARUToolStripMenuItem.Name = "sUBARUToolStripMenuItem";
-            resources.ApplyResources(this.sUBARUToolStripMenuItem, "sUBARUToolStripMenuItem");
-            this.sUBARUToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // sPERANZAToolStripMenuItem
-            // 
-            this.sPERANZAToolStripMenuItem.Name = "sPERANZAToolStripMenuItem";
-            resources.ApplyResources(this.sPERANZAToolStripMenuItem, "sPERANZAToolStripMenuItem");
-            this.sPERANZAToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // sSANGYONGToolStripMenuItem
-            // 
-            this.sSANGYONGToolStripMenuItem.Name = "sSANGYONGToolStripMenuItem";
-            resources.ApplyResources(this.sSANGYONGToolStripMenuItem, "sSANGYONGToolStripMenuItem");
-            this.sSANGYONGToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // sUZUKIToolStripMenuItem
-            // 
-            this.sUZUKIToolStripMenuItem.Name = "sUZUKIToolStripMenuItem";
-            resources.ApplyResources(this.sUZUKIToolStripMenuItem, "sUZUKIToolStripMenuItem");
-            this.sUZUKIToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // pEUGEOTToolStripMenuItem
-            // 
-            this.pEUGEOTToolStripMenuItem.Name = "pEUGEOTToolStripMenuItem";
-            resources.ApplyResources(this.pEUGEOTToolStripMenuItem, "pEUGEOTToolStripMenuItem");
-            this.pEUGEOTToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // rENAULTToolStripMenuItem
-            // 
-            this.rENAULTToolStripMenuItem.Name = "rENAULTToolStripMenuItem";
-            resources.ApplyResources(this.rENAULTToolStripMenuItem, "rENAULTToolStripMenuItem");
-            this.rENAULTToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // mINIToolStripMenuItem
-            // 
-            this.mINIToolStripMenuItem.Name = "mINIToolStripMenuItem";
-            resources.ApplyResources(this.mINIToolStripMenuItem, "mINIToolStripMenuItem");
-            this.mINIToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // mITSUBISHIToolStripMenuItem
-            // 
-            this.mITSUBISHIToolStripMenuItem.Name = "mITSUBISHIToolStripMenuItem";
-            resources.ApplyResources(this.mITSUBISHIToolStripMenuItem, "mITSUBISHIToolStripMenuItem");
-            this.mITSUBISHIToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // lEXUSToolStripMenuItem
-            // 
-            this.lEXUSToolStripMenuItem.Name = "lEXUSToolStripMenuItem";
-            resources.ApplyResources(this.lEXUSToolStripMenuItem, "lEXUSToolStripMenuItem");
-            this.lEXUSToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // gEELYToolStripMenuItem
-            // 
-            this.gEELYToolStripMenuItem.Name = "gEELYToolStripMenuItem";
-            resources.ApplyResources(this.gEELYToolStripMenuItem, "gEELYToolStripMenuItem");
-            this.gEELYToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // dODGEToolStripMenuItem
-            // 
-            this.dODGEToolStripMenuItem.Name = "dODGEToolStripMenuItem";
-            resources.ApplyResources(this.dODGEToolStripMenuItem, "dODGEToolStripMenuItem");
-            this.dODGEToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // fORDToolStripMenuItem
-            // 
-            this.fORDToolStripMenuItem.Name = "fORDToolStripMenuItem";
-            resources.ApplyResources(this.fORDToolStripMenuItem, "fORDToolStripMenuItem");
-            this.fORDToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // nISSANToolStripMenuItem
-            // 
-            this.nISSANToolStripMenuItem.Name = "nISSANToolStripMenuItem";
-            resources.ApplyResources(this.nISSANToolStripMenuItem, "nISSANToolStripMenuItem");
-            this.nISSANToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // dAIHATSUToolStripMenuItem
-            // 
-            this.dAIHATSUToolStripMenuItem.Name = "dAIHATSUToolStripMenuItem";
-            resources.ApplyResources(this.dAIHATSUToolStripMenuItem, "dAIHATSUToolStripMenuItem");
-            this.dAIHATSUToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // vOLSKWAGNToolStripMenuItem
-            // 
-            this.vOLSKWAGNToolStripMenuItem.Name = "vOLSKWAGNToolStripMenuItem";
-            resources.ApplyResources(this.vOLSKWAGNToolStripMenuItem, "vOLSKWAGNToolStripMenuItem");
-            this.vOLSKWAGNToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // bRILLIANCEToolStripMenuItem
-            // 
-            this.bRILLIANCEToolStripMenuItem.Name = "bRILLIANCEToolStripMenuItem";
-            resources.ApplyResources(this.bRILLIANCEToolStripMenuItem, "bRILLIANCEToolStripMenuItem");
-            this.bRILLIANCEToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // aLFAROMEOToolStripMenuItem
-            // 
-            this.aLFAROMEOToolStripMenuItem.Name = "aLFAROMEOToolStripMenuItem";
-            resources.ApplyResources(this.aLFAROMEOToolStripMenuItem, "aLFAROMEOToolStripMenuItem");
-            this.aLFAROMEOToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // bYDToolStripMenuItem
-            // 
-            this.bYDToolStripMenuItem.Name = "bYDToolStripMenuItem";
-            resources.ApplyResources(this.bYDToolStripMenuItem, "bYDToolStripMenuItem");
-            this.bYDToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // bENTLYToolStripMenuItem
-            // 
-            this.bENTLYToolStripMenuItem.Name = "bENTLYToolStripMenuItem";
-            resources.ApplyResources(this.bENTLYToolStripMenuItem, "bENTLYToolStripMenuItem");
-            this.bENTLYToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // bAICToolStripMenuItem
-            // 
-            this.bAICToolStripMenuItem.Name = "bAICToolStripMenuItem";
-            resources.ApplyResources(this.bAICToolStripMenuItem, "bAICToolStripMenuItem");
-            this.bAICToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // dAEWOOToolStripMenuItem
-            // 
-            this.dAEWOOToolStripMenuItem.Name = "dAEWOOToolStripMenuItem";
-            resources.ApplyResources(this.dAEWOOToolStripMenuItem, "dAEWOOToolStripMenuItem");
-            this.dAEWOOToolStripMenuItem.Click += new System.EventHandler(this.Get_Carname);
-            // 
-            // cHEVROLETToolStripMenuItem
-            // 
-            this.cHEVROLETToolStripMenuItem.Name = "cHEVROLETToolStripMenuItem";
-            resources.ApplyResources(this.cHEVROLETToolStripMenuItem, "cHEVROLETToolStripMenuItem");
-            // 
-            // jEEPToolStripMenuItem
-            // 
-            this.jEEPToolStripMenuItem.Name = "jEEPToolStripMenuItem";
-            resources.ApplyResources(this.jEEPToolStripMenuItem, "jEEPToolStripMenuItem");
+            this.othersToolStripMenuItem.Name = "othersToolStripMenuItem";
+            resources.ApplyResources(this.othersToolStripMenuItem, "othersToolStripMenuItem");
             // 
             // NeuralNetworksAPPGUI
             // 
@@ -482,39 +309,18 @@
         private System.Windows.Forms.Panel pic_panel;
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.ToolStripMenuItem typeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mercedesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bMWToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kIAToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tOYOTAToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem oPELToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hYUNDAIToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hONDAToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem vOLSKWAGNToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bRILLIANCEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aLFAROMEOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aUDIToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bYDToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bENTLYToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bAICToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dAEWOOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dAIHATSUToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nISSANToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fORDToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dODGEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gEELYToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem lEXUSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mITSUBISHIToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mINIToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rENAULTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pEUGEOTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sUZUKIToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sSANGYONGToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sPERANZAToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sUBARUToolStripMenuItem;
-        private System.Windows.Forms.Button ADD_RECT;
-        private System.Windows.Forms.ToolStripMenuItem cHEVROLETToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jEEPToolStripMenuItem;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ToolStripMenuItem sedanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sUVToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem miniVanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bUSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem miniBusToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lightTruckToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mediumTruckToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem heavyTruckToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem othersToolStripMenuItem;
     }
 }
 
