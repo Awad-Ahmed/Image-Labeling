@@ -130,12 +130,16 @@
   <data name="ShowButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ShowButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ShowButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
   <data name="ShowButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 23</value>
+    <value>91, 25</value>
   </data>
   <data name="ShowButton.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -158,11 +162,14 @@
   <data name="ClrButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="ClrButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="ClrButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 3</value>
   </data>
   <data name="ClrButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 23</value>
+    <value>91, 25</value>
   </data>
   <data name="ClrButton.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -182,11 +189,14 @@
   <data name="&gt;&gt;ClrButton.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>197, 0</value>
+    <value>197, 9</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 13</value>
@@ -239,11 +249,14 @@
   <data name="SaveButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="SaveButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="SaveButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>429, 3</value>
   </data>
   <data name="SaveButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 23</value>
+    <value>44, 25</value>
   </data>
   <data name="SaveButton.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -266,11 +279,14 @@
   <data name="ChooseDirectoryBTN.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="ChooseDirectoryBTN.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="ChooseDirectoryBTN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>477, 3</value>
+    <value>479, 3</value>
   </data>
   <data name="ChooseDirectoryBTN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 23</value>
+    <value>100, 25</value>
   </data>
   <data name="ChooseDirectoryBTN.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -290,8 +306,11 @@
   <data name="&gt;&gt;ChooseDirectoryBTN.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 3</value>
+    <value>585, 3</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -314,11 +333,14 @@
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>662, 0</value>
+    <value>666, 9</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 13</value>
@@ -345,7 +367,7 @@
     <value>True</value>
   </metadata>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>716, 3</value>
+    <value>720, 3</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 20</value>
@@ -365,7 +387,40 @@
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>806, 2</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 26</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>EX: 638 ب ق ع 
+EX: #45893</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
   <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -402,6 +457,9 @@
   <data name="NxtButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="NxtButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="NxtButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFAAAABDCAYAAAALU4KYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -437,6 +495,9 @@
   <data name="PrvButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="PrvButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="PrvButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFUAAABDCAYAAADtekncAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -471,11 +532,17 @@
   <data name="&gt;&gt;PrvButton.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="Help_button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Help_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="Help_button.Location" type="System.Drawing.Point, System.Drawing">
     <value>1075, 664</value>
   </data>
   <data name="Help_button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>46, 23</value>
   </data>
   <data name="Help_button.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -504,18 +571,6 @@
   <data name="pic_panel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="&gt;&gt;pictureBox.Name" xml:space="preserve">
-    <value>pictureBox</value>
-  </data>
-  <data name="&gt;&gt;pictureBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox.Parent" xml:space="preserve">
-    <value>pic_panel</value>
-  </data>
-  <data name="&gt;&gt;pictureBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="pic_panel.Location" type="System.Drawing.Point, System.Drawing">
     <value>115, 3</value>
   </data>
@@ -536,6 +591,36 @@
   </data>
   <data name="&gt;&gt;pic_panel.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 664</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="tableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -565,38 +650,77 @@
     <value>1</value>
   </data>
   <data name="tableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="flowLayoutPanel1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="NxtButton" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="PrvButton" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Help_button" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pic_panel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,9.502262,Percent,80.99548,Percent,9.38914" /&gt;&lt;Rows Styles="Percent,92.31844,Percent,7.681564,Absolute,10" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="pictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pictureBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pictureBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>954, 655</value>
-  </data>
-  <data name="pictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="pictureBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox.Name" xml:space="preserve">
-    <value>pictureBox</value>
-  </data>
-  <data name="&gt;&gt;pictureBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox.Parent" xml:space="preserve">
-    <value>pic_panel</value>
-  </data>
-  <data name="&gt;&gt;pictureBox.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="flowLayoutPanel1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="NxtButton" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="PrvButton" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Help_button" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pic_panel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,9.502262,Percent,80.99548,Percent,9.38914" /&gt;&lt;Rows Styles="Percent,92.31844,Percent,7.681564,Absolute,10" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="ContextMNU.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>150, 17</value>
   </metadata>
+  <data name="Colorselect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="Colorselect.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="miniBusToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="miniBusToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mini Bus</value>
+  </data>
+  <data name="bUSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="bUSToolStripMenuItem.Text" xml:space="preserve">
+    <value>BUS</value>
+  </data>
+  <data name="sedanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="sedanToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sedan</value>
+  </data>
+  <data name="sUVToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="sUVToolStripMenuItem.Text" xml:space="preserve">
+    <value>SUV/4x4</value>
+  </data>
+  <data name="lightTruckToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="lightTruckToolStripMenuItem.Text" xml:space="preserve">
+    <value>Light Truck</value>
+  </data>
+  <data name="mediumTruckToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="mediumTruckToolStripMenuItem.Text" xml:space="preserve">
+    <value>Medium Truck</value>
+  </data>
+  <data name="heavyTruckToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="heavyTruckToolStripMenuItem.Text" xml:space="preserve">
+    <value>Heavy Truck</value>
+  </data>
+  <data name="hatchbackToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="hatchbackToolStripMenuItem.Text" xml:space="preserve">
+    <value>Hatchback</value>
+  </data>
+  <data name="othersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="othersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="typeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="typeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
   <data name="ContextMNU.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 48</value>
   </data>
@@ -609,80 +733,14 @@
   <data name="&gt;&gt;ContextMNU.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Colorselect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="Colorselect.Text" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="typeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 22</value>
-  </data>
-  <data name="typeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Type</value>
-  </data>
   <metadata name="SaveFileName.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>260, 17</value>
   </metadata>
-  <data name="sedanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="sedanToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sedan</value>
-  </data>
-  <data name="sUVToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="sUVToolStripMenuItem.Text" xml:space="preserve">
-    <value>SUV</value>
-  </data>
-  <data name="miniVanToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="miniVanToolStripMenuItem.Text" xml:space="preserve">
-    <value>Mini Van</value>
-  </data>
-  <data name="bUSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="bUSToolStripMenuItem.Text" xml:space="preserve">
-    <value>BUS</value>
-  </data>
-  <data name="miniBusToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="miniBusToolStripMenuItem.Text" xml:space="preserve">
-    <value>Mini Bus</value>
-  </data>
-  <data name="lightTruckToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="lightTruckToolStripMenuItem.Text" xml:space="preserve">
-    <value>Light Truck</value>
-  </data>
-  <data name="mediumTruckToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="mediumTruckToolStripMenuItem.Text" xml:space="preserve">
-    <value>Medium Truck</value>
-  </data>
-  <data name="heavyTruckToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="heavyTruckToolStripMenuItem.Text" xml:space="preserve">
-    <value>Heavy Truck</value>
-  </data>
-  <data name="othersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="othersToolStripMenuItem.Text" xml:space="preserve">
-    <value>Others</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>87</value>
+    <value>96</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -5019,11 +5077,14 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
     <value>200, 400</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1200, 766</value>
+    <value>1200, 726</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>NeuralNetworksGUI</value>
@@ -5046,11 +5107,17 @@
   <data name="&gt;&gt;typeToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;SaveFileName.Name" xml:space="preserve">
-    <value>SaveFileName</value>
+  <data name="&gt;&gt;miniBusToolStripMenuItem.Name" xml:space="preserve">
+    <value>miniBusToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;SaveFileName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;miniBusToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bUSToolStripMenuItem.Name" xml:space="preserve">
+    <value>bUSToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bUSToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;sedanToolStripMenuItem.Name" xml:space="preserve">
     <value>sedanToolStripMenuItem</value>
@@ -5062,24 +5129,6 @@
     <value>sUVToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;sUVToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;miniVanToolStripMenuItem.Name" xml:space="preserve">
-    <value>miniVanToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;miniVanToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bUSToolStripMenuItem.Name" xml:space="preserve">
-    <value>bUSToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;bUSToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;miniBusToolStripMenuItem.Name" xml:space="preserve">
-    <value>miniBusToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;miniBusToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lightTruckToolStripMenuItem.Name" xml:space="preserve">
@@ -5100,11 +5149,23 @@
   <data name="&gt;&gt;heavyTruckToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;hatchbackToolStripMenuItem.Name" xml:space="preserve">
+    <value>hatchbackToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;hatchbackToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;othersToolStripMenuItem.Name" xml:space="preserve">
     <value>othersToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;othersToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveFileName.Name" xml:space="preserve">
+    <value>SaveFileName</value>
+  </data>
+  <data name="&gt;&gt;SaveFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>NeuralNetworksAPPGUI</value>
